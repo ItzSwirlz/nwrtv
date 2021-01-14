@@ -30,16 +30,14 @@ find_package(Qt${QT_VERSION_MAJOR} COMPONENTS Widgets REQUIRED)
 if(ANDROID)
   add_library(nwrtv SHARED
     src/main.cpp
-    src/mainwindow.cpp
-    src/mainwindow.h
-    src/mainwindow.ui
+    src/main.h
+    src/main.ui
   )
 else()
   add_executable(nwrtv
     src/main.cpp
-    src/mainwindow.cpp
-    src/mainwindow.h
-    src/mainwindow.ui
+    src/main.h
+    src/main.ui
   )
 endif()
 

@@ -1,5 +1,5 @@
-#ifndef MAINWINDOW_H
-#define MAINWINDOW_H
+#ifndef MAIN_H
+#define MAIN_H
 
 #include <QMainWindow>
 
