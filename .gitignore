@@ -9,6 +9,7 @@
 *.so.*
 *.dll
 *.dylib
+*.gch
 
 # Qt-es
 object_script.*.Release
@@ -61,3 +62,7 @@ install_manifest.txt
 compile_commands.json
 CTestTestfile.cmake
 _deps
+nwrtv_autogen
+
+# Built binary
+nwrtv
